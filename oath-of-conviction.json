@@ -1,0 +1,245 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "rivendom",
+                "abbreviation": "RVDM",
+                "full": "Rivendom",
+                "authors": [
+                    "Malkuthe Highwind",
+                    "Yakuno"
+                ],
+                "convertedBy": [
+                    "Malkuthe Highwind"
+                ],
+                "version": "0.1.0",
+                "url": "https://rivendom.net",
+                "targetSchema": "1.0.8"
+            }
+        ]
+    },
+    "subclass": [
+        {
+            "name": "Oath of Conviction",
+            "shortName": "Conviction",
+            "source": "rivendom",
+            "subclassSpells": [
+                "shield",
+                "absorb elements",
+                "misty step",
+                "enlarge/reduce",
+                "haste",
+                "elemental weapon",
+                "fire shield",
+                "death ward",
+                {
+                    "name": "steel wind strike",
+                    "source": "XGE"
+                },
+                "hallow"
+            ],
+            "subclassFeatures": [
+                "Oath of Conviction|Paladin|Conviction|rivendom|3",
+                "Armaments of Zeal|Paladin|Conviction|rivendom|7",
+                "Steel Constitution|Paladin|Conviction|rivendom|15",
+                "Burden of Duty|Paladin|Conviction|rivendom|20"
+            ],
+            "spells": [
+                {
+                    "prepared": {
+                        "3": [
+                            "shield",
+                            "absorb elements"
+                        ],
+                        "5": [
+                            "misty step",
+                            "enlarge/reduce"
+                        ],
+                        "9": [
+                            "haste",
+                            "elemental weapon"
+                        ],
+                        "13": [
+                            "fire shield",
+                            "death ward"
+                        ],
+                        "17": [
+                            {
+                                "name":"steel wind strike",
+                                "source": "XGE"
+                            },
+                            "hallow"
+                        ]
+                    }
+                }
+            ],
+            "additionalSpells": [
+                {
+                    "prepared": {
+                        "3": [
+                            "shield",
+                            "absorb elements"
+                        ],
+                        "5": [
+                            "misty step",
+                            "enlarge/reduce"
+                        ],
+                        "9": [
+                            "haste",
+                            "elemental weapon"
+                        ],
+                        "13": [
+                            "fire shield",
+                            "death ward"
+                        ],
+                        "17": [
+                            {
+                                "name":"steel wind strike",
+                                "source": "XGE"
+                            },
+                            "hallow"
+                        ]
+                    }
+                }
+            ],
+            "className": "Paladin",
+            "classSource": "PHB"
+        }
+    ],
+    "subclassFeatures": [
+        {
+            "name": "Oath of Conviction",
+            "source": "rivendom",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Conviction",
+            "subclassSource": "rivendom",
+            "level": 3,
+            "entries": [
+                "To take the Oath of Conviction is to rely on no strength but your own and to fight, tooth and claw, until your dying breath, to stand for the principles that you believe in.",
+                {
+                    "name": "Tenets of Conviction",
+                    "entries": [
+                        {
+                            "name": "Reject the Gods",
+                            "entries": [
+                                "Rely only on the strength of your own conviction and hardwork; accept neither sympathy nor pity from would-be gods or patrons."
+                            ]
+                        },
+                        {
+                            "name": "Seize Your Destiny",
+                            "entries": [
+                                "Fate is an excuse of those who lack conviction. Seize the reins of yours and mould your destiny with your won two hands. Nothing is written in stone."
+                            ]
+                        },
+                        {
+                            "name": "Brook No Cowardice",
+                            "entries": [
+                                "Retreat is acceptable. Surrender is not. Those resign themselves have given up on their convictions. There is no glory in pointless defeat."
+                            ]
+                        },
+                        {
+                            "name": "Rely on Yourself",
+                            "entries": "Allies are valuable, but you must be able to protect yourself before you can protect them. Expect no aid, and fight as if you won't get it, but welcome it when it is sincerely offered."
+                        }
+                    ]
+                },
+                {
+                    "name": "Oath Spells",
+                    "entries": [
+                        "You gain oath spells at the paladin levels listed."
+                    ]
+                },
+                {
+                    "type": "table", 
+                    "caption": "Oath of Conviction Spells",
+                    "colLabels": [
+                        "Paladin Level",
+                        "Spells"
+                    ],
+                    "colStyles": [
+                        "col-3 text-center",
+                        "col-9"
+                    ],
+                    "rows": [
+                        [
+                            "3rd",
+                            "{@spell shield}, {@spell absorb elements}"
+                        ],
+                        [
+                            "5th",
+                            "{@spell misty step}, {@spell enlarge/reduce}"
+                        ],
+                        [
+                            "9th",
+                            "{@spell haste}, {@spell elemental weapon}"
+                        ],
+                        [
+                            "13th",
+                            "{@spell fire shield}, {@spell death ward}"
+                        ],
+                        [
+                            "17th",
+                            "{@spell steel wind strike|XGE}, {@spell hallow}"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Channel Divinity: Resolve",
+                    "entries": [
+                        "You steel yourself and grit your teeth, ready to continue the fight. As a bonus action you gain temporary hit points equal to your Paladin level + your Charisma modifier for 1 minute."
+                    ]
+                },
+                {
+                    "name": "Channel Divinity: Shatter-Strike",
+                    "entries": [
+                        "You put all your determination behind breaking through even the toughest of defenses, calling upon your conviction to injure even those who refuse to be harmed. As a bonus action, you can empower your weapon. The next time you hit an enemy with a melee attack, your attack ignores damage resistances and immunities."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Armaments of Zeal",
+            "source": "rivendom",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Conviction",
+            "subclassSource": "rivendom",
+            "level": "7",
+            "header": "2",
+            "entries": [
+                "Starting at 7th level, you gain a bonus to damage rolls made with melee weapons equal to your Charisma modifier (minimum of 1)."
+            ]
+        },
+        {
+            "name": "Steel Constitution",
+            "source": "rivendom",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Conviction",
+            "subclassSource": "rivendom",
+            "level": "15",
+            "header": "2",
+            "entries": [
+                "Starting at 15th level, your conviction allows you to shrug off mortal blows. You gain resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks."
+            ]
+        },
+        {
+            "name": "Burden of Duty",
+            "source": "rivendom",
+            "className": "Paladin",
+            "classSource": "PHB",
+            "subclassShortName": "Conviction",
+            "subclassSource": "rivendom",
+            "level": "20",
+            "header": "2",
+            "entries": [
+                "Starting at 20th level, you can, as a bonus action, don a mystical mask that represents the burden of duty and conviction that rests upon your shoulders. The mask takes on the appearance of your choice and represents your fighting spirit and the force of your will.",
+                "While you are wearing the mask, you impose your will in a 30 ft. area centered on you. This area moves with you when you move and creatures in this area make attacks against you with disadvantage.",
+                "As a bonus action, you can manifest an image of yourself to strike at an emeny inside this area. Make a melee spell attack against a creature you can see within range. If the attack hits, the creature takes {@dice 2d10} + your Charisma modifier force damage.",
+                "The mask's effects last for 1 minute or until you are reduced to 0 hit points. When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point intsead. When you do so, the mask breaks, ending its effect.",
+                "Once you have used this ability, you cannot use it again until you finish a long rest."
+            ]
+        }
+    ]
+}
