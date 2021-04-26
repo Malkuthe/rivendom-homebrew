@@ -15,7 +15,7 @@
                 ],
                 "version": "0.1.0",
                 "url": "https://rivendom.net",
-                "targetSchema": "1.0.0"
+                "targetSchema": "1.1.0"
             }
         ]
     },
